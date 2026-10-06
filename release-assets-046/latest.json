@@ -1,0 +1,11 @@
+{
+  "version": "0.4.6-beta",
+  "notes": "Torgy 0.4.6-beta current-user update",
+  "pub_date": "2026-10-06T17:19:40.465Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSXBQemNYbGxVUldqRUZlUDhCRDU0RFZvNlZlTkdibzB4d1JyZ2NhelppeGxTWkFwY0FlNGlvMU1vbnh6YW9tTHFHMUpkTUpSZW14bVlyWElUNktvTEF0dnY1RVlJeUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA3MTc0CWZpbGU6VG9yZ3lfMC40LjYtYmV0YV94NjQtc2V0dXAuZXhlCks1eTByTHNVUllUNUVVZlczYXF2ZU1jbldVczNyMlNwU2hnQ2xIK1p4L01JM29zYk1GTEgwM2h1Y2tnemxwOFk2cGJ0Qk9vY2NJYS9aYWVBTnhHd0RBPT0=",
+      "url": "https://github.com/TruJ0e/Torgy-Releases/releases/download/v0.4.6-beta/Torgy_0.4.6-beta_x64-setup.exe"
+    }
+  }
+}

@@ -12,12 +12,9 @@ jobs:
           pip install -q gdown
           gdown "1EuwayLRz6xEUfH0PkAbWW4eKwJjGX-Yp" -O Torgy_0.4.5-beta_x64-setup.exe
           ls -la Torgy_0.4.5-beta_x64-setup.exe
-          file Torgy_0.4.5-beta_x64-setup.exe | head -c 200
-          echo
       - name: Upload to release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
-          gh release view v0.4.5-beta --json tagName
-          gh release upload v0.4.5-beta --clobber Torgy_0.4.5-beta_x64-setup.exe 2>&1 | tail -20
+          gh release upload v0.4.5-beta --repo TruJ0e/Torgy-Releases --clobber Torgy_0.4.5-beta_x64-setup.exe
+          gh release view v0.4.5-beta --repo TruJ0e/Torgy-Releases --json assets --jq '.assets[] | "\(.name) \(.state)"'
